@@ -1,0 +1,14 @@
+[package]
+name = "elligator2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ff = "0.13.0"
+crypto-bigint = "0.5.3"
+
+[dev-dependencies]
+bp-ed25519 = { git = "https://github.com/avras/bp-ed25519.git" }
+hex = "0.4.3"
